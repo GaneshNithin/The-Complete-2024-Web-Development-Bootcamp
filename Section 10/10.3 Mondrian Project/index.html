@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      body {
+        display: grid;
+        width: 748px;
+        height: 748px;
+
+        grid-template-columns: 320px 9px 198px 153px 9px 50px;
+        grid-template-rows: 414px 9px 130px 9px 155px 9px 20px 70px;
+      }
+
+      .third {
+        grid-column: 3 / -1;
+      }
+
+      .fourth {
+        grid-column: 1/ -1;
+      }
+
+      .fifth {
+        grid-row: 3 / 6;
+      }
+
+      .sixth {
+        grid-row: 3 / 6;
+      }
+
+      .seventh {
+        grid-column: auto / span 2;
+        grid-row: 3 / 6;
+      }
+
+      .eighth {
+        grid-row: 3 / 6;
+      }
+
+      .eleventh {
+        border-bottom: #232629 solid 10px;
+      }
+
+      .thirteenth {
+        grid-row: auto / span 3;
+      }
+
+      .fourteenth {
+        grid-column: 1 / -2;
+      }
+
+      .eighteenth {
+        grid-column: auto / span 2;
+      }
+
+      .gap {
+        background-color: #000;
+      }
+
+      .white {
+        background-color: #f0f1ec;
+      }
+
+      .red {
+        background-color: #e72f24;
+      }
+
+      .black {
+        background-color: #232629;
+      }
+
+      .blue {
+        background-color: #004592;
+      }
+
+      .yellow {
+        background-color: #f9d01e;
+      }
+      /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    </style>
+  </head>
+
+  <body>
+    <div class="red first"></div>
+    <div class="black second"></div>
+    <div class="white third"></div>
+    <div class="black fourth"></div>
+    <div class="white fifth"></div>
+    <div class="black sixth"></div>
+    <div class="white seventh"></div>
+    <div class="black eighth"></div>
+    <div class="blue eleventh"></div>
+    <div class="black twelfth"></div>
+    <div class="white thirteenth"></div>
+    <div class="black fourteenth"></div>
+    <div class="white fifteenth"></div>
+    <div class="black sixteenth"></div>
+    <div class="yellow sevententh"></div>
+    <div class="black eighteenth"></div>
+  </body>
+</html>
